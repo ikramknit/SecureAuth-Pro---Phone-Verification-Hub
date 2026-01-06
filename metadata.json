@@ -1,0 +1,8 @@
+{
+  "name": "SecureAuth Pro - Phone Verification Hub",
+  "description": "A high-end landing page and security dashboard integrating Phone.email verification with AI-powered privacy insights.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
