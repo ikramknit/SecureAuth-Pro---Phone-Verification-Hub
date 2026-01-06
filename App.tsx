@@ -1,7 +1,7 @@
 
 import React, { useState, useCallback } from 'react';
-import { PhoneWidget } from './components/PhoneWidget';
-import { generatePrivacyPolicy, getSecurityInsights } from './services/geminiService';
+import { PhoneWidget } from './components/PhoneWidget.tsx';
+import { generatePrivacyPolicy, getSecurityInsights } from './services/geminiService.ts';
 import { Shield, Lock, FileText, CheckCircle, RefreshCcw, ArrowRight, ExternalLink } from 'lucide-react';
 
 const App: React.FC = () => {
